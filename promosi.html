@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEDANGJP - Promosi</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#000;
+    padding:20px;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+}
+
+.card{
+    background:#1b1b1b;
+    border:1px solid #333;
+    border-radius:12px;
+    overflow:hidden;
+    margin-bottom:25px;
+    box-shadow:0 0 15px rgba(255,215,0,.15);
+}
+
+.card img{
+    width:100%;
+    display:block;
+}
+
+.content{
+    padding:18px;
+}
+
+.content h2{
+    color:#FFD700;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#FFD700;
+    color:#000;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+button:hover{
+    background:#e6c200;
+}
+.detail{
+    display:none;
+    margin-top:15px;
+    background:#111;
+    color:#fff;
+    border-left:4px solid #FFD700;
+    padding:15px;
+    border-radius:8px;
+    line-height:1.8;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+     <!-- Banner 1 -->
+    <div class="card">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjg-Gd_wMlY6aXar_c3dT4T9GCOvCxzEkzqRjVUhcWE5m-4O34i-RcePJfJ_JzhoFjjPNe6bIv1LmHfL_i7hHvhvArhXCFIvZl0mJzJ7PPBCw2-j1qbMY2X6gO4-DHzZ4RxlYEDDlTzoKrBUFibbLTs2nVdgXEGubu0Zpji7tc3TltDJytlxEiwVAJh-Qqd" alt="Promo 1">
+
+        <div class="content">
+
+            <h2>Bonus New Member 100%</h2>
+
+            <button onclick="toggleDetail('detail1')">
+                Baca Syarat & Ketentuan
+            </button>
+
+            <div class="detail" id="detail1">
+                <p>
+                    • Deposit 100rb bonus 100rb.<br>
+                    • Tanpa TO.<br>
+                    • Bebas IP & Gagal WD saldo kembali 100%.
+                </p>
+            </div>
+
+        </div>
+    </div>   
+
+    <!-- Banner 2 -->
+    <div class="card">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEix-mF75MrSlXFS-UiiCaWjgJaHMUfOMVIF3dsTaf96clsBuojJKlFF5BAfNib2VpQrQT5UeqRPatS74rUOC9UELBLT4wJ8zYsahdJzfhwb9TOd2cdykjOZx7XWNkFo50ROJGYwFZe8J5H2z4o39gIO4yL4Y8Zqij-RtddckhRnTFJSOf21-Yg2BpPC73Sf" alt="Promo 2">
+
+        <div class="content">
+
+            <h2>Bonus Saldo Gratis 100K</h2>
+
+            <button onclick="toggleDetail('detail2')">
+                Baca Syarat & Ketentuan
+            </button>
+
+            <div class="detail" id="detail2">
+                <p>
+                    • Ajak teman kamu untuk melakukan deposit di sini.<br>
+                    • Dapatkan bonus saldo GRATIS sebesar Rp100.000.<br>
+                    • Sebelum mengikuti saldo gratis wajib mealakukan deposit terlebih dahulu minimal deposit 20k.<br>
+                    • Setelah Syarat Dan ketentuan Sudah Benar Silahkan Konfirmasi username teman kamu Ke Livechat.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Banner 3 -->
+    <div class="card">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgEoPFPJAACixmlItJA1ytzGZa9neugpXUJcphwS2EgS2S3pB5u46XeG2XQGKt6D4jPBg1uJeAJykEjH9Y2H7vKjS3urtWSOQqlb4NmofXDt5bT6G3q7BRumIXBZtP56jt90VY-S48bcJTqWwBpwyJI4ezc6VJgiI3Ni1Mjl88ykUQTBw7RebF5B2Bo1JLu" alt="Promo 3">
+
+        <div class="content">
+
+            <h2>Bonus Harian & Mingguan</h2>
+
+            <button onclick="toggleDetail('detail3')">
+                Baca Syarat & Ketentuan
+            </button>
+
+            <div class="detail" id="detail3">
+                <p>
+                    • Berlaku setiap minggu.<br>
+                    • Nominal mengikuti ketentuan promo.<br>
+                    • Tidak dapat digabung dengan promo tertentu.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Banner 4 -->
+    <div class="card">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgxrpPu5vDhuWjNPnrtO2HN_WgLM4IhYVsvH7Q_h8rs27-7kuj0zM6bfBP-yI6KeXQPne-awFNiWkXU49AZ-Kx4TPu5uba7IfsynDPAVGi_-TkBSeJ7QbIDYKO6snkyM2flLa7BW7Ur4k8SphHbkZeEON71QFsttOpKA4g4BWjZkqIFfuIhGZhQMuWA2W86" alt="Promo 4">
+
+        <div class="content">
+
+            <h2>Cara Deposit</h2>
+
+            <button onclick="toggleDetail('detail4')">
+                Baca Syarat & Ketentuan
+            </button>
+
+            <div class="detail" id="detail4">
+                <p>
+                    • Minimal Deposit Rp 20.000.<br>
+                    • Minimal Withdraw Rp 50.000.<br>
+                    • Setelah deposit berhasil, silakan unggah atau kirim screenshot bukti transfer untuk membantu proses verifikasi sehingga saldo dapat segera masuk ke akun Anda.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Banner 5 -->
+    <div class="card">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhEEWTE1KBRn1vFC9UdIIozvF7Wenj9IRthbE5UdnygyUMld5WFDDtEQzGWBT6uuhwd43UBYT0zvdp6eULOl-VRnZxi4XBV94aYzEPefUZlD9dA1XhR9RAcz8w1vyDk4jaqwCq3hD7RVvO2QA2hijJzQWI0VgMK7-7sTneuoLmlYpe6_3qK0nK1bMdWkm5g" alt="Promo 5">
+
+        <div class="content">
+
+            <h2>Bonus Share Sosial Media</h2>
+
+            <button onclick="toggleDetail('detail5')">
+                Baca Syarat & Ketentuan
+            </button>
+
+            <div class="detail" id="detail5">
+                <p>
+                    • Gratis saldo Rp 50.000.<br>
+                    • Cukup Share Ke Sosial Media kamu Seperti Whatsapp, Facebook, Tiktok Dan Instagram.<br>
+                    • Sebelum mengikuti Bonus Share wajib mealakukan deposit terlebih dahulu minimal deposit 20k.<br>
+                    • Setelah Syarat Dan ketentuan Sudah Benar Silahkan Konfirmasi Ke Livechat.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+function toggleDetail(id){
+
+    const box = document.getElementById(id);
+
+    if(box.style.display === "block"){
+        box.style.display = "none";
+    }else{
+        box.style.display = "block";
+    }
+
+}
+</script>
+
+</body>
+</html>
